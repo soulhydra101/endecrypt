@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decrypt Text</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Decrypt Text</h1>
+        <div class="section">
+            <textarea id="decrypt-text" placeholder="Enter text to decrypt"></textarea>
+            <input type="number" id="decrypt-key" placeholder="Enter shift key" value="4" />
+            <button onclick="decryptText()">Decrypt</button>
+            <p id="decrypted-output"></p>
+        </div>
+        <a href="encrypt.html" class="link">Go to Encrypt Page</a>
+    </div>
+    <script src="decrypt.js"></script>
+</body>
+</html>
